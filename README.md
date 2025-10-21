@@ -37,12 +37,22 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 /* write all the steps invloved */
 
 **PROGRAM**
-
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+```
+module enc(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7); 
+input y0,y1,y2,y3,y4,y5,y6,y7; 
+output a,b,c; 
+assign a= ( y4 | y5 | y6 | y7); 
+assign b= ( y2 | y3 | y6 | y7); 
+assign c= ( y1 | y3 | y5 | y7); 
+endmodule
+```
+/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by:HariPrasad A RegisterNumber:25005271
 */
 
 **RTL LOGIC FOR FLIPFLOPS**
+![WhatsApp Image 2025-10-21 at 11 57 13_361de3c8](https://github.com/user-attachments/assets/3773d45f-e11b-4bb0-8e81-a1f6dfab5a1b)
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
+![WhatsApp Image 2025-10-21 at 11 57 19_73f4bd47](https://github.com/user-attachments/assets/2031b0a8-0db5-4e5c-85a6-41c190516526)
 
 **RESULTS**
